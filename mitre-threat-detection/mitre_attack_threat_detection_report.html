@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITRE ATT&CK Threat Detection Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        h1, h2 { text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table, th, td { border: 1px solid black; padding: 10px; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>MITRE ATT&CK Threat Detection Report</h1>
+    <h2>Summary of Detected Techniques</h2>
+
+    <h3>Log Data and Mapped Techniques:</h3>
+    <table>
+        <tr>
+            <th>Timestamp</th>
+            <th>Source IP</th>
+            <th>Destination IP</th>
+            <th>Event Type</th>
+            <th>Technique Name</th>
+            <th>Technique ID</th>
+        </tr>
+        <tr><td>2024-10-05 12:00:00</td><td>192.168.1.10</td><td>192.168.1.50</td><td>Process Creation</td><td>Unknown</td><td>T1059</td></tr><tr><td>2024-10-05 12:05:00</td><td>192.168.1.11</td><td>192.168.1.51</td><td>File Access</td><td>Unknown</td><td>T1105</td></tr>
+    </table>
+
+    <h3>Heatmap of Detected Techniques:</h3>
+    <img src="heatmap.png" alt="Heatmap" width="700px">
+
+    <h3>ATT&CK Matrix - Detected Techniques:</h3>
+    <img src="attack_matrix.png" alt="ATT&CK Matrix" width="700px">
+
+</body>
+</html>
