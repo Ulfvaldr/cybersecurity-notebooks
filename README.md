@@ -12,7 +12,7 @@ Welcome to the **Cybersecurity Jupyter Notebooks Showcase!** This repository con
 
 ### 2. Vulnerability Analysis with Nmap and Vulners
 - [Nmap + Vulners Vulnerability Scan](vulnerability-analysis/nmap_vulners_scan.ipynb): A guide to performing vulnerability analysis by combining Nmap with the Vulners API. Generate detailed vulnerability reports, including CVSS scores and severity levels.
-- [Visualizing Vulnerabilities](vulnerability-analysis/nmap_vulners_visualization.ipynb): Visualize vulnerability data, including severity levels and the distribution of CVSS scores, using Python libraries like Matplotlib and Seaborn.
+- [Visualizing Vulnerabilities](vulnerability-analysis_vulners_visualization.ipynb): Visualize vulnerability data, including severity levels and the distribution of CVSS scores, using Python libraries like Matplotlib and Seaborn.
 
 ### 3. **MITRE ATT&CK Threat Detection**
 - [MITRE ATT&CK Framework Analysis](mitre-threat-detection/automated_threat_detection_with_mitre_attack.ipynb): Detect threats and map events to the MITRE ATT&CK framework. Learn how to retrieve tactics and techniques and generate comprehensive reports.
